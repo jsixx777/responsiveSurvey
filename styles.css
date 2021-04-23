@@ -1,0 +1,15 @@
+
+.square-one {
+    background: black;
+    padding: 2rem;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.info {
+    background: blue;
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+}
