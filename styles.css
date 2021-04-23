@@ -1,9 +1,14 @@
 
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
 .square-one {
     background: black;
     padding: 2rem;
-    width: 80%;
-    margin: 0 auto;
+    
+    
 
 }
 
@@ -11,5 +16,22 @@
     background: blue;
     color: white;
     max-width: 800px;
-    margin: 0 auto;
+    padding: .5rem .5rem;
+    
+}
+
+.square-two {
+    background:lightgreen;
+    padding: 2rem 2rem;
+    
+    
+}
+
+.content {
+    background: gray;
+    color: white;
+    padding: .5rem .5rem;
+    
+    
+    max-width: 800px;
 }
