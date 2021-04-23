@@ -18,7 +18,7 @@
     color: white;
     max-width: 800px;
     padding: .5rem .5rem;
-    min-width: 400px;
+    
     
 }
 
@@ -27,13 +27,14 @@
     padding: 2rem 2rem;
     
     
+    
 }
 
 .content {
     background: gray;
     color: white;
     padding: .5rem .5rem;
-    min-width: 400px;
+    
     
     max-width: 800px;
 }
@@ -46,6 +47,7 @@
 .square-three {
     background: yellow;
     padding: 2rem 2rem;
+    
 }
 
 .content-three {
@@ -53,17 +55,18 @@
     max-width: 800px;
     color: white;
     padding: .5rem;
-    min-width: 400px;
+    
 }
 
 .square-four {
     background: seagreen;
     padding: 2rem 2rem;
+    
 }
 
 .content-four {
     background: bisque;
     max-width: 800px;
     padding: .5rem;
-    min-width: 400px;
+    
 }
