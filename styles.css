@@ -6,7 +6,7 @@
 }
 .square-one {
     background: black;
-    padding: 2rem;
+    padding: 2rem 2rem;
     
     
 
@@ -34,4 +34,21 @@
     
     
     max-width: 800px;
+}
+
+.container-two {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.square-three {
+    background: yellow;
+    padding: 2rem 2rem;
+}
+
+.content-three {
+    background: black;
+    max-width: 800px;
+    color: white;
+    padding: .5rem;
 }
