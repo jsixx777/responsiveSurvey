@@ -7,9 +7,55 @@
 }
 
 .section-one {
+    
     background: linear-gradient(rgba(0, 0, 255 ,1.0), rgba(0,0,255,0.5), rgba(0,0,255,0.7));
     padding: 10vh;
+    height: 100vh;
+    margin-bottom: 0px;
+}
+
+.section-one-content {
+    display: flex;
+    
+}
+.col {
+    flex: 1;
+}
+
+html {
+    line-height: 1;
 }
     
     
+.section-one-image {
+    height: auto;
+    max-width: 100%;
+    box-shadow: 3px 3px 25px 5px rgba(0,0,0,.9);
+}
 
+.section-one-title {
+    font-size: 5vw;
+    color: white;
+}
+
+.section-one-general-info {
+    max-width: 800px;
+    margin-right: 50px;
+    font-size: 2vh;
+}
+
+.btn {
+    background-color: rgba(200,0,0);
+    color: white;
+    padding: 1em 4em;
+    display: inline-block;
+}
+
+.section-two {
+    background-image:url(https://images.unsplash.com/photo-1572490038720-a092b5f26fb4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGJhcmJlZCUyMHdpcmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+    padding-top: 2rem;
+
+}
