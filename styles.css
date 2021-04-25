@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+.section-one {
+    background: linear-gradient(rgba(0, 0, 255 ,1.0), rgba(0,0,255,0.5), rgba(0,0,255,0.7));
+    padding: 10vh;
+}
+    
+    
+
