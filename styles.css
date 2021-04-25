@@ -33,6 +33,7 @@ html {
     color: white;
     background: steelblue;
     padding: 1em 4em;
+    
   }
   
   * {
@@ -42,8 +43,10 @@ html {
   .hero {
     background: linear-gradient(to left, #83a4d4 , #b6fbff);
     padding: 10vh 0;
-    
     height: 100vh;
+    
+    
+   
   }
   
   .hero-img {
