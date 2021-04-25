@@ -17,6 +17,7 @@ html {
 
 .section-1-content {
     max-width: 50%;
+    margin-bottom: 50px;
 }
 
 .section-1-title {
@@ -32,4 +33,10 @@ html {
 
 .button {
     background: rgb(13, 197, 243);
+    font-weight: bold;
+    padding: 20px 20px;
+    margin-top: 20px;
+    width: 25vw;
+    border-radius: 30px;
+    
 }
