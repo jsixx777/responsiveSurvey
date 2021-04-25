@@ -1,4 +1,35 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@200&display=swap');
+
 * {
-    
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.0;
+}
+
+.section-1 {
+    background: rgb(38, 38, 94);
+    height: 70vh;
+    padding: 7rem 3rem 5rem 7rem;
+}
+
+.section-1-content {
+    max-width: 50%;
+}
+
+.section-1-title {
+    font-size: 3rem;
+    color: white;
+    font-family: 'Antonio', sans-serif;
+}
+
+.section-1-verbage {
+    color: white;
+    font-family: 'Antonio', sans-serif;
+}
+
+.button {
+    background: rgb(13, 197, 243);
 }
