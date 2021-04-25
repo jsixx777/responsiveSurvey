@@ -8,10 +8,11 @@
 
 .section-one {
     
-    background: linear-gradient(rgba(0, 0, 255 ,1.0), rgba(0,0,255,0.5), rgba(0,0,255,0.7));
+    background: linear-gradient(to left, rgba(0, 0, 255 ,1.0), rgba(0,0,255,0.5), rgba(0,0,255,0.7));
     padding: 10vh;
     height: 100vh;
     margin-bottom: 0px;
+    padding-bottom: 50rem;
 }
 
 .section-one-content {
@@ -28,7 +29,7 @@ html {
     
     
 .section-one-image {
-    height: auto;
+    height:730px;
     max-width: 100%;
     box-shadow: 3px 3px 25px 5px rgba(0,0,0,.9);
 }
@@ -49,6 +50,7 @@ html {
     color: white;
     padding: 1em 4em;
     display: inline-block;
+    
 }
 
 .section-two {
