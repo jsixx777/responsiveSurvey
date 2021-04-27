@@ -7,6 +7,7 @@
     width: 30vw;
     padding: 0.5em;
     margin: 25vh auto 0;
+    align-items: flex-start;
 }
 
 .item {
@@ -17,10 +18,12 @@
 
 .one {
     flex: 3 1 250px;
+    align-self: flex-end;
 }
 
 .two {
     flex: 0 1 250px;
+    align-self: center;
 }
 
 .three {
