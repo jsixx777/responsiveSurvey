@@ -1,8 +1,47 @@
 .container {
-  background-color: #0c0b46;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: #0c0b46;
   height: 50vh;
-  width: 50vh;
+  width: 30vw;
   padding: 0.5em;
   margin: 25vh auto 0;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.item {
+  background: lightcoral;
+  margin: 0.5em;
+  color: white;
+}
+
+.one {
+  -webkit-box-flex: 3;
+      -ms-flex: 3 1 250px;
+          flex: 3 1 250px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.two {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 250px;
+          flex: 0 1 250px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.three {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 250px;
+          flex: 0 1 250px;
 }
 /*# sourceMappingURL=styles.css.map */
