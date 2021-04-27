@@ -1,10 +1,10 @@
 .container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    
     background: rgb(12, 11, 70);
     height: 50vh;
-    width: 50vw;
+    width: 30vw;
     padding: 0.5em;
     margin: 25vh auto 0;
 }
@@ -16,13 +16,13 @@
 }
 
 .one {
-    flex-grow: 1;
+    flex: 3 1 250px;
 }
 
 .two {
-    flex-grow: 1;
+    flex: 0 1 250px;
 }
 
 .three {
-    flex-grow: 1;
+    flex: 0 1 250px;
 }
