@@ -1,10 +1,11 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AGAA,OAAO,CAAC,oFAAI",
     "sources": [
         "styles.scss",
         "scss/abstracts/__abstracts-dir.scss",
-        "scss/abstracts/_variables.scss"
+        "scss/abstracts/_variables.scss",
+        "scss/abstracts/_fonts.scss"
     ],
     "names": [],
     "file": "styles.css"
