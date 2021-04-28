@@ -1,1 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+$poppins: 'Whitney-Bold', sans-serif;
+
+
+$hooka: (
+    large: 5rem,
+    med-large: 4rem,
+    med: 3rem,
+    small: 1.6rem,
+    x-small: 1.1rem,
+    xx-small: 0.1rem
+);
+
+$font-weight: (
+    first: 600,
+    second: 300
+
+);
+
+$text-transform: (
+    prim: uppercase,
+    sec: lowercase,
+);
+
+$text-decoration: (
+    primary: none,
+    secondary: underline,
+);
