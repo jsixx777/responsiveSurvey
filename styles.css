@@ -16,7 +16,6 @@ h2 {
   color: #12850e;
   text-transform: uppercase;
   letter-spacing: 15px;
-  outline: 3px solid #fafffd;
   outline-offset: .25em;
   display: inline-block;
   margin: .25em 0 0 0.5em;
@@ -67,20 +66,16 @@ p span {
 }
 
 .sales-points {
-  padding: 12vh 0;
-  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 20px;
+  text-align: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 30rem) {
   .sales-points {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -95,7 +90,7 @@ p span {
 }
 
 .cta {
-  background-image: url(//unsplash.it/600/400);
+  background-image: url(https://images.unsplash.com/photo-1584179307172-84d0077a244b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHBpYW5pc3R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
   background-size: cover;
   padding: 10vh 0;
   color: #fafffd;
@@ -110,6 +105,8 @@ p span {
 .cta-text {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
+  background-blend-mode: hue;
+  color: #fafffd;
   padding: 0 2em;
 }
 

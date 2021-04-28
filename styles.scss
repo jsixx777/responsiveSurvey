@@ -11,7 +11,7 @@ h2 {
     color: $green;
     text-transform: map-get($map: $text-transform, $key: prim );
     letter-spacing: 15px;
-    outline: 3px solid $white;
+    
     outline-offset: .25em;
     display: inline-block;
     margin: .25em 0 0 0.5em;
@@ -53,17 +53,19 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
   }
   
   .sales-points {
-    padding: 12vh 0;
-    text-align: center;
     display: flex;
+    padding: 20px;
+    text-align: center;
     justify-content: space-around;
-    flex-direction: column;
+    
+    
   }
   
-  @media (min-width: 40rem) {
+  @media (min-width: 30rem) {
     .sales-points {
       flex-direction: row;
     }
@@ -71,10 +73,11 @@ p {
   
   .sales-point {
     flex-basis: 30%;
+    
   }
   
   .cta {
-    background-image: url(//unsplash.it/600/400);
+    background-image: url(https://images.unsplash.com/photo-1584179307172-84d0077a244b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHBpYW5pc3R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
     background-size: cover;
     padding: 10vh 0;
     color: $white;
@@ -84,6 +87,8 @@ p {
   
   .cta-text {
     flex-basis: 100%;
+    background-blend-mode: hue;
+    color: $white;
     padding: 0 2em;
     @media (min-width: 40rem) {
       flex-basis: 50%;
