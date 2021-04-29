@@ -30,7 +30,10 @@
 }
 
 .section-2 {
-    background: rgb(12, 240, 190)
+    
+
+    background: rgb(255, 255,255);
+    background-blend-mode: darken;
 }
 
 .section-3 {
@@ -43,4 +46,29 @@
 
 strong {
     text-transform: uppercase;
+}
+
+.sales {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 50vh;
+}
+
+.ind-sale {
+    display:flex;
+    flex-direction: column;
+    
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    h2 {
+        color: green;
+        font-size: 5rem;
+    }
+
+    p{
+        font-size: 1.5rem;
+    }
 }
