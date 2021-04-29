@@ -4,4 +4,59 @@
           box-sizing: border-box;
   margin-top: 0;
 }
+
+.section-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(https://images.unsplash.com/photo-1517411020229-9cbb75afed2f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQ1fHxtYW4lMjBvbiUyMG1vdW50YWlufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: #444;
+}
+
+.section-1 p {
+  padding-bottom: 10px;
+  font-size: larger;
+}
+
+.section-1 h2 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: green;
+}
+
+.section-1 .co {
+  font-weight: lighter;
+}
+
+.section-2 {
+  background: #0cf0be;
+}
+
+.section-3 {
+  background: #0b96a8;
+}
+
+.awesome {
+  color: green;
+}
+
+strong {
+  text-transform: uppercase;
+}
 /*# sourceMappingURL=styles.css.map */
