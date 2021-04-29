@@ -34,10 +34,15 @@
 
     background: rgb(255, 255,255);
     background-blend-mode: darken;
+    
 }
 
 .section-3 {
-    background: rgb(11, 150, 168);
+    background: url(https://images.unsplash.com/photo-1555704232-77904cb981fe?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGlhbm8lMjBrZXlzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: cover;
+    height: 70vh;
 }
 
 .awesome {
@@ -70,5 +75,23 @@ strong {
 
     p{
         font-size: 1.5rem;
+    }
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    height: 50vh;
+    width: 50%;
+    h2 {
+        color: green;
+        font-size: 5rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+        color: white;
     }
 }
