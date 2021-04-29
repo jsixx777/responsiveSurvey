@@ -79,10 +79,8 @@ strong {
 }
 
 .call-to-action {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 2px solid black;
+    padding: 10vh;
+    align-self: center;
     height: 50vh;
     width: 50%;
     h2 {
@@ -94,4 +92,19 @@ strong {
         font-size: 1.5rem;
         color: white;
     }
+}
+
+.section-3-content {
+    
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+}
+
+.button {
+    background: green;
+    color: white;
+    width: 20%;
+    padding: 15px;
+    text-align: center;
 }
