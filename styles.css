@@ -10,18 +10,31 @@
           box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 .section-one {
   background-color: #5b17d8;
   height: 50%;
+  padding: 70px;
 }
 
 .section-one-content {
-  width: 60%;
-  padding: 50px 130px 100px 100px;
+  border: 2px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 70%;
   height: 100%;
 }
 
 .section-one-info {
+  border: 2px solid white;
+  width: 55%;
   color: white;
 }
 
@@ -32,6 +45,17 @@
 .section-one-info p {
   font-size: 1rem;
   margin-bottom: 50px;
+}
+
+.section-one-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  border: 2px solid white;
+  height: 100%;
+  width: 40%;
 }
 
 .button {

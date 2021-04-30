@@ -5,18 +5,30 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
 .section-one {
     background-color: rgb(91, 23, 216);
     height: 50%; 
+    padding: 70px;
 }
 
 .section-one-content {
-    width: 60%;
-    padding: 50px 130px 100px 100px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    
     height: 100%;
+    
 }
 
 .section-one-info {
+    //margin-right: 10%;
+    border: 2px solid white;
+    width: 55%;
     color: white;
     h2 {
         font-size: 3rem;
@@ -26,6 +38,15 @@
         font-size: 1rem;
         margin-bottom: 50px;
     }
+}
+
+.section-one-image {
+    
+    display: flex;
+    align-self: flex-start;
+    border: 2px solid white;
+    height: 100%;
+    width: 40%;
 }
 
 .button {
