@@ -58,4 +58,46 @@ img {
     margin-bottom: 30px;
 }
 
+.section-two {
+    
+    padding: 70px;
+}
+
+.section-two-content {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.section-two-background {
+    width: 57%;
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+.section-two-quality {
+    padding: 30px;
+    background-color: rgb(47, 20, 146);
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid brown;
+    width: 30%;
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+        margin-bottom: 50px;
+        
+    }
+}
+
+.section-two-background-title {
+    font-size: 3rem;
+    color: blue;
+}
 
