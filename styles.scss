@@ -16,7 +16,7 @@ img {
 }
 
 .section-one-content {
-    border: 2px solid red;
+    
     display: flex;
     justify-content: space-between;
     width: 70%;
@@ -27,7 +27,7 @@ img {
 
 .section-one-info {
     //margin-right: 10%;
-    border: 2px solid white;
+   
     width: 55%;
     color: white;
     h2 {
@@ -44,7 +44,7 @@ img {
     
     display: flex;
     align-self: flex-start;
-    border: 2px solid white;
+    
     height: 100%;
     width: 40%;
 }
@@ -56,56 +56,6 @@ img {
     border-radius: 100px;
     font-weight: bold;
     margin-bottom: 30px;
-}
-
-.section-two {
-    background-color: white;
-    height: 50%;
-    color: black;
-    padding: 50px;
-}
-
-.section-two-content {
-    display: flex;
-    justify-content: flex-end;
-    //padding: 30px;
-    
-}
-
-.section-two-info {
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    //justify-content: space-between;
-    
-    margin: 20px;
-    
-    h2 {
-        font-size: 2rem;
-    }
-}
-
-.section-three {
-    background-color: rgb(33, 11, 75);
-    color: white;
-    height: 50%;
-}
-
-.section-three-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    border: 2px solid white;
-    padding: 30px;
-}
-
-.words {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
-    padding: 30px;
 }
 
 
