@@ -11,7 +11,7 @@
 }
 
 .section-one-content {
-    width: 50%;
+    width: 60%;
     padding: 50px 130px 100px 100px;
     height: 100%;
 }
@@ -35,5 +35,33 @@
     border-radius: 100px;
     font-weight: bold;
     margin-bottom: 30px;
+}
+
+.section-two {
+    background-color: white;
+    height: 50%;
+    color: black;
+    padding: 50px;
+}
+
+.section-two-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    
+}
+
+.section-two-info {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid black;
+    margin: 20px;
+    
+    h2 {
+        font-size: 2rem;
+    }
 }
 
