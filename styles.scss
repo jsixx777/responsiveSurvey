@@ -9,6 +9,39 @@ img {
     max-width: 100%;
 }
 
+.nav {
+    background-color: black;
+    padding: 10px;
+    
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+
+.nav-header {
+    border: 2px solid red;
+    display: flex;
+    color: white;
+    align-self: center;
+}
+
+.title {
+        display:flex;
+        align-content: center;
+}
+
+.nav-info {
+    border: 2px solid red;
+    
+    a {
+        color: white;
+       
+        margin-right: 20px;
+    }
+    
+}
 .section-one {
     background-color: rgb(91, 23, 216);
     height: 50%; 
