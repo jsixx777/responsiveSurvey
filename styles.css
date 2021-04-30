@@ -76,4 +76,38 @@
 .section-two-info h2 {
   font-size: 2rem;
 }
+
+.section-three {
+  background-color: #210b4b;
+  color: white;
+  height: 50%;
+}
+
+.section-three-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+}
+
+.words {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+  width: 50%;
+}
+
+.words h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.words p {
+  text-align: center;
+}
 /*# sourceMappingURL=styles.css.map */
