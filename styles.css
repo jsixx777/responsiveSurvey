@@ -69,7 +69,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 2px solid black;
   margin: 20px;
 }
 
