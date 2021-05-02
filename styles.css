@@ -15,7 +15,35 @@ img {
 }
 
 .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   background-color: black;
+  height: 7vh;
+}
+
+.nav-links a {
+  position: relative;
+  top: 25%;
+  left: 0px;
+  color: white;
+  margin-right: 30px;
+}
+
+.nav-button {
+  position: relative;
+  top: 25%;
+  left: 0%;
+  margin-right: 30px;
+}
+
+.nav-button .sign-up-button {
+  background-color: #4fa8b8;
+  border-radius: 100px;
+  height: 50%;
 }
 
 .section-one {

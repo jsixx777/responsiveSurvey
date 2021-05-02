@@ -11,7 +11,35 @@ img {
 }
 
 .nav {
+    display: flex;
+    justify-content: flex-end;
     background-color: black;
+    height: 7vh;
+    
+}
+
+.nav-links {
+    a {
+        position: relative;
+        top: 25%;
+        left: 0px;
+        color: white;
+        margin-right: 30px;
+    }
+}
+
+.nav-button {
+    
+    position: relative;
+    top: 25%;
+    left: 0%;
+    margin-right: 30px;
+    .sign-up-button {
+        background-color :rgb(79, 168, 184);
+       
+        border-radius: 100px;
+        height: 50%;
+    }
 }
 
 
