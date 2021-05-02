@@ -1,6 +1,7 @@
 @import "./scss/abstracts/_abstracts-dir";
 
 
+
 * {
     box-sizing: border-box;
 }
@@ -14,10 +15,32 @@ img {
     border: 2px solid black;
     width: 80%;
     margin: 0 auto;
+    
 }
 
 .section-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 660px;
     background-color: #F3EED9;
+    p {
+        border: 2px solid red;
+        text-align: center;
+        font-size: 60px;
+        width: 50%;
+        margin: 0 auto;
+        font-family: $playFair;
+        color:  #824936;
+       
+    }
+}
+
+.section-one-title {
+    font-family:  $lighter;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .section-two {
