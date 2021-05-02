@@ -14,53 +14,6 @@ img {
   max-width: 100%;
 }
 
-.nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: black;
-  padding: 0px;
-  height: 15vh;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-
-.nav .header {
-  position: relative;
-  top: 25%;
-  left: 1rem;
-  height: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  color: white;
-}
-
-.nav .header .title {
-  height: 50%;
-  position: relative;
-  top: 25%;
-  left: 0px;
-}
-
-.about {
-  height: 50%;
-  position: relative;
-  top: 25%;
-  left: 0px;
-}
-
-.about a {
-  position: relative;
-  top: 25%;
-  left: 0%;
-  color: white;
-  margin-right: 40px;
-}
-
 .section-one {
   background-color: #5b17d8;
   height: 50%;
