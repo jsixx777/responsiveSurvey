@@ -14,6 +14,10 @@ img {
   max-width: 100%;
 }
 
+.nav {
+  background-color: black;
+}
+
 .section-one {
   background-color: #5b17d8;
   height: 50%;
