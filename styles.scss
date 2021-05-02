@@ -13,26 +13,23 @@ img {
     display: flex;
     background-color: black;
     padding: 0px;
-    height: 20vh;
+    height: 15vh;
     justify-content: space-between;
     align-content: center;
     border: 2px solid red;
 
     .header {
+        position: relative;
+        top: 25%;
+        left: 1rem;
         height: 50%;
-        border: 2px solid white;
         display: flex;
         color: white;
-        align-self: center;
-        justify-content: center;  
         .title {
-            display: flex;
-            border: 2px solid green;
-            padding: 0px;
-            //align-self: flex-end;
             height: 50%;
-            
-            
+            position: relative;
+            top: 25%;
+            left: 0px;
         } 
      }
 

@@ -20,7 +20,7 @@ img {
   display: flex;
   background-color: black;
   padding: 0px;
-  height: 20vh;
+  height: 15vh;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -30,26 +30,21 @@ img {
 }
 
 .nav .header {
+  position: relative;
+  top: 25%;
+  left: 1rem;
   height: 50%;
-  border: 2px solid white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   color: white;
-  -ms-flex-item-align: center;
-      align-self: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .nav .header .title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  border: 2px solid green;
-  padding: 0px;
   height: 50%;
+  position: relative;
+  top: 25%;
+  left: 0px;
 }
 
 .nav a {
