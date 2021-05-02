@@ -16,7 +16,6 @@ img {
     height: 15vh;
     justify-content: space-between;
     align-content: center;
-    border: 2px solid red;
 
     .header {
         position: relative;
@@ -32,31 +31,25 @@ img {
             left: 0px;
         } 
      }
+}
 
+.about {
+    height: 50%;
+    position: relative;
+    top: 25%;
+    left: 0px;
     a {
+        position: relative;
+        top: 25%;
+        left: 0%;
         color: white;
+        margin-right: 40px;
     }
     
 }
 
 
 
-
-.title {
-        //display:flex;
-        align-content: center;
-}
-
-.nav-info {
-    border: 2px solid red;
-    
-    a {
-        color: white;
-       
-        margin-right: 20px;
-    }
-    
-}
 .section-one {
     background-color: rgb(91, 23, 216);
     height: 50%; 

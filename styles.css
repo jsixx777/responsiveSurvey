@@ -26,7 +26,6 @@ img {
           justify-content: space-between;
   -ms-flex-line-pack: center;
       align-content: center;
-  border: 2px solid red;
 }
 
 .nav .header {
@@ -47,22 +46,19 @@ img {
   left: 0px;
 }
 
-.nav a {
+.about {
+  height: 50%;
+  position: relative;
+  top: 25%;
+  left: 0px;
+}
+
+.about a {
+  position: relative;
+  top: 25%;
+  left: 0%;
   color: white;
-}
-
-.title {
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-
-.nav-info {
-  border: 2px solid red;
-}
-
-.nav-info a {
-  color: white;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 .section-one {
