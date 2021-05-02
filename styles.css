@@ -15,35 +15,48 @@ img {
 }
 
 .nav {
-  background-color: black;
-  padding: 10px;
-}
-
-.nav-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: black;
+  padding: 0px;
+  height: 20vh;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-line-pack: end;
-      align-content: flex-end;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border: 2px solid red;
 }
 
-.nav-header {
-  border: 2px solid red;
+.nav .header {
+  height: 50%;
+  border: 2px solid white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   color: white;
   -ms-flex-item-align: center;
       align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.title {
+.nav .header .title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border: 2px solid green;
+  padding: 0px;
+  height: 50%;
+}
+
+.nav a {
+  color: white;
+}
+
+.title {
   -ms-flex-line-pack: center;
       align-content: center;
 }
