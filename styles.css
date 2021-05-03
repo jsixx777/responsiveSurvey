@@ -38,7 +38,6 @@ img {
 }
 
 .section-one p {
-  border: 2px solid red;
   text-align: center;
   font-size: 60px;
   width: 50%;
@@ -52,6 +51,44 @@ img {
   font-size: 18px;
   text-align: center;
   text-transform: uppercase;
+}
+
+.section-two h2 {
+  font-size: 36px;
+  font-family: "Playfair Display", serif;
+  color: #824936;
+  text-align: center;
+}
+
+.section-two-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-two-content p {
+  font-size: 21px;
+}
+
+.section-two-title {
+  margin-top: 70px;
+}
+
+.first-paragraph {
+  width: 45%;
+}
+
+.second-paragraph {
+  width: 45%;
+}
+
+.section-two-content {
+  margin-bottom: 70px;
 }
 
 .section-three {
