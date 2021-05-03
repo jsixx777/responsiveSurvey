@@ -116,5 +116,29 @@ img {
 }
 
 .section-four {
+    display: flex;
     background-color: #824936;
+    justify-content: space-around;
+}
+
+.section-four-body {
+    margin: 70px 50px 70px 0px;
+    width: 40%;
+    h2 {
+        font-size: 33px;
+        color: #F3EED9; 
+    }
+
+    p {
+        font-size: 21px;
+        color: #F3EED9;
+    }
+}
+
+.section-four-image {
+    margin: 70px 0px 70px 100px;
+    width: 30%;
+    height: 70%;
+    
+    
 }

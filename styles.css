@@ -127,6 +127,32 @@ img {
 }
 
 .section-four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #824936;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.section-four-body {
+  margin: 70px 50px 70px 0px;
+  width: 40%;
+}
+
+.section-four-body h2 {
+  font-size: 33px;
+  color: #F3EED9;
+}
+
+.section-four-body p {
+  font-size: 21px;
+  color: #F3EED9;
+}
+
+.section-four-image {
+  margin: 70px 0px 70px 100px;
+  width: 30%;
+  height: 70%;
 }
 /*# sourceMappingURL=styles.css.map */
