@@ -64,6 +64,10 @@ img {
   height: 50%;
 }
 
+.nav-navigations a:hover {
+  background-color: gray;
+}
+
 .section-one {
   display: -webkit-box;
   display: -ms-flexbox;
