@@ -22,6 +22,18 @@ img {
   margin: 0 auto;
 }
 
+.nav {
+  background: black;
+}
+
+.nav-title {
+  color: white;
+}
+
+.nav-navigations a {
+  color: white;
+}
+
 .section-one {
   display: -webkit-box;
   display: -ms-flexbox;
