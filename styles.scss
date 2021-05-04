@@ -34,6 +34,8 @@ img {
     position: relative;
     top: 13.5%;
     left:0px;
+    padding-left: 10px;
+    padding-right: 10px;
     
 }
 
@@ -46,9 +48,14 @@ img {
 }
 
 .nav-navigations {
-    border: 2px solid green;
+    margin-right: 60px;
     a {
         color: white;
+        margin-right: 40px;
+        position: relative;
+        top: 28%;
+        left: 0px;
+        height: 50%;
     }
 }
 
