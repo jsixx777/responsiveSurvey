@@ -19,7 +19,7 @@ body {
     background-color: steelblue;
 }
 
-@media (min-width: 700px) {
+@media (max-width: 700px) {
     .example {
         background-color: olivedrab;
     }
