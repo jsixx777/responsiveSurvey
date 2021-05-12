@@ -24,4 +24,10 @@ body {
   padding: 10em 0;
   background-color: steelblue;
 }
+
+@media (min-width: 700px) {
+  .example {
+    background-color: olivedrab;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
