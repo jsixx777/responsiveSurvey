@@ -24,3 +24,9 @@ body {
         background-color: olivedrab;
     }
 }
+
+@media (min-width: 800px) {
+    .example {
+        background-color: orangered;
+    }
+}
